@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+ }
+ 
+ .bagian1 {
+    background: url(./asset/latar.png);
+    width: 100%;
+    height: 288px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container1 {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1500px;
+    z-index: 2;
+}
+
+.menu ul li {
+    color: grey;
+    display: inline-block;
+    padding: 0px 10px
+    font-size: 16px
+    line-height: 19px;
+    font-weight: 700px
+    padding-left: 100px;
+}
+
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  padding top: 100;
+  width: 100%;
+}
+
+/* link navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* merubah warna background link ketika mouse lewat */
+.navbar a:hover {
+  background: #ddd;
+  color: grey;
+}
+
+.container2 {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1200px;
+    z-index: 2;
+}
+
+.bagian2 .container2 {
+    padding: 60px 0;
+}
+
+/* akhir container */
+
+.bagian2 {
+    position: static;
+    z-index: 0;
+    width: 100%;
+    height: 632px;
+}
+
+/* judul bagian 2 */
+
+.bagian2 .judul {
+    margin-bottom: 20px;
+}
+
+.bagian2 .judul h3 {
+    font-size: 40px;
+}
+
+.bagian2 .judul h1 {
+    font-size: 20px;
+    color: #000000;
+}
+
+/* akhir judul bagian 2 */
+
+
+/* isi kanan */
+
+.bagian2 .isikanan{
+    width: 40%;
+    margin-right: 20px;
+}
+
+.bagian2 .isikanan h1 {
+    font-size: 36px;
+    color: #A4D84F;
+}
+
+.bagian2 .isikanan p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #9a9a9a;
+    margin: 20px 0;
+}
